@@ -23,6 +23,15 @@ public class PrimeNumber {
 		}
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	private static void for1To100Number() {
 
 		for (int i = 2; i <= 100; i++) {

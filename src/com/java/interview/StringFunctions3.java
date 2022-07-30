@@ -23,6 +23,14 @@ public class StringFunctions3 {
 		System.out.println();
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 private static void subMethod1() {
 	String s = "my name is java";
 	System.out.println(s);

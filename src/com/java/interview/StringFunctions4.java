@@ -20,6 +20,18 @@ public class StringFunctions4 {
 		System.out.println("the length of the string : " + c);
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	private static void subMethod2() {
 
 		System.out.println("check the string rotation");
