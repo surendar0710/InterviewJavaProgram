@@ -1,3 +1,4 @@
+
 package com.java.interview;
 
 public class FibanocciSeries {
@@ -9,7 +10,7 @@ public class FibanocciSeries {
 		int c;
 		System.out.print(a + " ,");
 		System.out.print(b + " ,");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i <10; i++) {																																																																									
 
 			c = a + b;
 			System.out.print(c+ ",");

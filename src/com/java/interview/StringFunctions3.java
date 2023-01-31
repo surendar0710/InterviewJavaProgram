@@ -8,7 +8,7 @@ public class StringFunctions3 {
 		System.out.println(s);
 		String[] sp = s.split(" ");
 		for (int i = 0; i < sp.length; i++) {
-			String[] sp1 = sp[i].split("");
+			String[] sp1 = sp[i].split("");   
 			for (int j = 0; j < sp1.length; j++) {
 				if(j==0) {
 				String u = sp1[j].toUpperCase();
@@ -22,14 +22,7 @@ public class StringFunctions3 {
 		}
 		System.out.println();
 	
-	}
-	
-	
-	
-	
-	
-	
-	
+	} 
 	
 private static void subMethod1() {
 	String s = "my name is java";

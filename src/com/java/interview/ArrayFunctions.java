@@ -1,4 +1,4 @@
-package com.java.interview;
+	package com.java.interview;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -16,7 +16,7 @@ public class ArrayFunctions {
 		for (int i = 0; i < a.length; i++) {
 			String str = a[i].toLowerCase();
 			l.add(str);
-			for (int j = 0 + 1; j < l.size(); j++) {
+			for (int j = 1; j < l.size(); j++) {
 				if (l.get(i).equals(l.get(j))) {
 					index = j;
 

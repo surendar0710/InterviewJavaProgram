@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class PrimeNumber {
 
 	private static void singleNumber() {
-		int a = 7;
+		int a = 9;
 		int count = 0;
 
 		for (int i = 2; i < a; i++) {
@@ -19,7 +19,7 @@ public class PrimeNumber {
 		if (count == 0) {
 			System.out.println("It is prime Number :" + a);
 		} else {
-			System.out.println("It is Not a Prome Number :" + a);
+			System.out.println("It is Not a Prime Number :" + a);
 		}
 	}
 
@@ -34,12 +34,12 @@ public class PrimeNumber {
 	
 	private static void for1To100Number() {
 
-		for (int i = 2; i <= 100; i++) {
+		for (int i = 2; i <= 100; i++) {//33
 			int count = 0;
-			for (int j = 2; j <= i / 2; j++) {
-				if (i % j == 0) {
+			for (int j = 2; j <= i / 2; j++) {//16
+				if (i % j == 0) {//
 
-					count++;
+					count++;//1
 				}
 			}
 			if (count == 0) {
@@ -53,8 +53,8 @@ public class PrimeNumber {
 	}
 
 	public static void main(String[] args) {
-
-		for1To100Number();
+singleNumber();
+		//for1To100Number();
 
 	}
 

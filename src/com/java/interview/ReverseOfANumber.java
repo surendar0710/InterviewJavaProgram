@@ -23,8 +23,9 @@ public class ReverseOfANumber {
 	private static void negative() {
 		System.out.println("the given number :" + temp1);
 		if(b<0) {
-			System.out.print("-");
-			b=b*-1; // 123
+			
+			System.out.print("the reverse of a number : -");
+			b=b* -1; // 123
 		}
 		
 		while (b> 0) { // 123 12 1
@@ -32,8 +33,8 @@ public class ReverseOfANumber {
 			reverse1 = reverse1 * 10 + remainder; // 3 32 321
 			b= b / 10; // 12 1 0.1
 		}
-
 		
+
 		System.out.println(reverse1);
 		
 		
